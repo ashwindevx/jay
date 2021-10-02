@@ -156,7 +156,7 @@ const ListSubWrapper = styled.div`
   align-items: flex-start;
   margin: 4em 0;
 
-  @media only screen and (width: 425px) {
+  @media only screen and (max-width: 425px) {
     flex-direction: column;
     margin: 2em 0;
   }
@@ -175,7 +175,7 @@ const IframeWrapper = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (width: 425px) {
+  @media only screen and (max-width: 425px) {
     width: 100%;
   }
 `;
@@ -187,7 +187,7 @@ const Footer = styled.div`
   align-items: center;
   margin-top: 8em;
 
-  @media only screen and (width: 425px) {
+  @media only screen and (max-width: 425px) {
     flex-direction: column;
     margin-top: 2em;
   }
@@ -198,7 +198,7 @@ const Socials = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (width: 425px) {
+  @media only screen and (max-width: 425px) {
     margin-top: 1em;
   }
 `;
