@@ -116,12 +116,18 @@ const Section = styled.div`
   }
 `;
 
-const Image = styled.div``;
+const Image = styled.div`
+  width: 70%;
+
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+  }
+`;
 
 const Img = styled.img`
   height: 100vh;
   max-height: 100%;
-  width: 500px;
+  width: 100%;
   object-fit: cover;
 
   @media only screen and (max-width: 425px) {
@@ -185,7 +191,7 @@ const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8em;
+  margin-top: 4em;
 
   @media only screen and (max-width: 425px) {
     flex-direction: column;
