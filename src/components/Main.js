@@ -7,7 +7,6 @@ const Main = () => {
     <Container>
       <Section>
         <Head>Jay's Jumble</Head>
-        <Text>The most useful newsletter on the Internet</Text>
         <Text>
           Bringing you the best of what the internet has to offer, weekly in
           your inbox!📨
